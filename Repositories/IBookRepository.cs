@@ -5,7 +5,7 @@ namespace FPTBook.Repositories
     public interface IBookRepository
     {
         IEnumerable<Book> GetBooks();
-        Book GetBookDetails(string id);
+        Book GetBookById(string id);
         void CreateBook(Book book);
         void EditBook(Book book);
         void DeleteBook(Book book);

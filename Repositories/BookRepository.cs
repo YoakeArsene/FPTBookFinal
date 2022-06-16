@@ -18,7 +18,7 @@ namespace FPTBook.Repositories
             return context.Book;
         }
 
-        public Book GetBookDetails(string id)
+        public Book GetBookById(string id)
         {
             return context.Book.Include(b => b.Store).FirstOrDefault(m => m.Isbn == id);
         }
