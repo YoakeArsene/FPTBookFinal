@@ -3,11 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32328.378
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FPTBook", "FPTBook.csproj", "{774FF9E7-8081-4624-8DD2-3CE798D9F185}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FPTBook", "FPTBook\FPTBook.csproj", "{774FF9E7-8081-4624-8DD2-3CE798D9F185}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FPTBookTest", "..\FPTBookTest\FPTBookTest.csproj", "{2937F309-F183-4CEC-B93C-C8FDB69ED787}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NewFolder1", "NewFolder1", "{62FA0DBF-CA48-4183-BBBD-EF1BF8C4367A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FPTBookTest", "FPTBookTest\FPTBookTest.csproj", "{2937F309-F183-4CEC-B93C-C8FDB69ED787}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
