@@ -1,0 +1,188 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+	<PropertyGroup>
+		<TargetFramework>net6.0</TargetFramework>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <Content Remove="wwwroot\css\bootswatchTheme.css" />
+	  <Content Remove="wwwroot\css\site.css" />
+	  <Content Remove="wwwroot\favicon.ico" />
+	  <Content Remove="wwwroot\img\045860945860.png" />
+	  <Content Remove="wwwroot\img\0948569084560984657.png" />
+	  <Content Remove="wwwroot\img\1234560.png" />
+	  <Content Remove="wwwroot\img\1234567.png" />
+	  <Content Remove="wwwroot\img\123456753.png" />
+	  <Content Remove="wwwroot\img\123456792020.png" />
+	  <Content Remove="wwwroot\img\1234569.png" />
+	  <Content Remove="wwwroot\img\1238412.png" />
+	  <Content Remove="wwwroot\img\129389.png" />
+	  <Content Remove="wwwroot\img\2068.png" />
+	  <Content Remove="wwwroot\img\3292cc48-7150-443a-98de-08d55b3d78f2.png" />
+	  <Content Remove="wwwroot\img\3456568765896789.png" />
+	  <Content Remove="wwwroot\img\456567678.png" />
+	  <Content Remove="wwwroot\img\567657657567.png" />
+	  <Content Remove="wwwroot\js\site.js" />
+	  <Content Remove="wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css" />
+	  <Content Remove="wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map" />
+	  <Content Remove="wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css" />
+	  <Content Remove="wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css.map" />
+	  <Content Remove="wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css" />
+	  <Content Remove="wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css.map" />
+	  <Content Remove="wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css" />
+	  <Content Remove="wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css.map" />
+	  <Content Remove="wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css" />
+	  <Content Remove="wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css.map" />
+	  <Content Remove="wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css" />
+	  <Content Remove="wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css.map" />
+	  <Content Remove="wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css" />
+	  <Content Remove="wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css.map" />
+	  <Content Remove="wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css" />
+	  <Content Remove="wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css.map" />
+	  <Content Remove="wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css" />
+	  <Content Remove="wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css.map" />
+	  <Content Remove="wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css" />
+	  <Content Remove="wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css.map" />
+	  <Content Remove="wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css" />
+	  <Content Remove="wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css.map" />
+	  <Content Remove="wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css" />
+	  <Content Remove="wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css.map" />
+	  <Content Remove="wwwroot\lib\bootstrap\dist\css\bootstrap.css" />
+	  <Content Remove="wwwroot\lib\bootstrap\dist\css\bootstrap.css.map" />
+	  <Content Remove="wwwroot\lib\bootstrap\dist\css\bootstrap.min.css" />
+	  <Content Remove="wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map" />
+	  <Content Remove="wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css" />
+	  <Content Remove="wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css.map" />
+	  <Content Remove="wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css" />
+	  <Content Remove="wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css.map" />
+	  <Content Remove="wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js" />
+	  <Content Remove="wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js.map" />
+	  <Content Remove="wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js" />
+	  <Content Remove="wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map" />
+	  <Content Remove="wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js" />
+	  <Content Remove="wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js.map" />
+	  <Content Remove="wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js" />
+	  <Content Remove="wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js.map" />
+	  <Content Remove="wwwroot\lib\bootstrap\dist\js\bootstrap.js" />
+	  <Content Remove="wwwroot\lib\bootstrap\dist\js\bootstrap.js.map" />
+	  <Content Remove="wwwroot\lib\bootstrap\dist\js\bootstrap.min.js" />
+	  <Content Remove="wwwroot\lib\bootstrap\dist\js\bootstrap.min.js.map" />
+	  <Content Remove="wwwroot\lib\bootstrap\LICENSE" />
+	  <Content Remove="wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js" />
+	  <Content Remove="wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js" />
+	  <Content Remove="wwwroot\lib\jquery-validation-unobtrusive\LICENSE.txt" />
+	  <Content Remove="wwwroot\lib\jquery-validation\dist\additional-methods.js" />
+	  <Content Remove="wwwroot\lib\jquery-validation\dist\additional-methods.min.js" />
+	  <Content Remove="wwwroot\lib\jquery-validation\dist\jquery.validate.js" />
+	  <Content Remove="wwwroot\lib\jquery-validation\dist\jquery.validate.min.js" />
+	  <Content Remove="wwwroot\lib\jquery-validation\LICENSE.md" />
+	  <Content Remove="wwwroot\lib\jquery\dist\jquery.js" />
+	  <Content Remove="wwwroot\lib\jquery\dist\jquery.min.js" />
+	  <Content Remove="wwwroot\lib\jquery\dist\jquery.min.map" />
+	  <Content Remove="wwwroot\lib\jquery\LICENSE.txt" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Content Include="Properties\launchSettings.json" />
+	  <Content Include="Properties\serviceDependencies.json" />
+	  <Content Include="Properties\serviceDependencies.local.json" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="MailKit" Version="3.3.0" />
+		<PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="6.0.6" />
+		<PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="6.0.6" />
+		<PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="6.0.6" />
+		<PackageReference Include="Microsoft.AspNetCore.Mvc.WebApiCompatShim" Version="2.2.0" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.6" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="6.0.6" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.6" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.6">
+			<PrivateAssets>all</PrivateAssets>
+			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+		</PackageReference>
+		<PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.6" />
+		<PackageReference Include="Swashbuckle.AspNetCore" Version="6.3.1" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <None Include="wwwroot\css\bootswatchTheme.css" />
+	  <None Include="wwwroot\css\site.css" />
+	  <None Include="wwwroot\favicon.ico" />
+	  <None Include="wwwroot\img\045860945860.png" />
+	  <None Include="wwwroot\img\0948569084560984657.png" />
+	  <None Include="wwwroot\img\1234560.png" />
+	  <None Include="wwwroot\img\1234567.png" />
+	  <None Include="wwwroot\img\123456753.png" />
+	  <None Include="wwwroot\img\123456792020.png" />
+	  <None Include="wwwroot\img\1234569.png" />
+	  <None Include="wwwroot\img\1238412.png" />
+	  <None Include="wwwroot\img\129389.png" />
+	  <None Include="wwwroot\img\2068.png" />
+	  <None Include="wwwroot\img\3292cc48-7150-443a-98de-08d55b3d78f2.png" />
+	  <None Include="wwwroot\img\3456568765896789.png" />
+	  <None Include="wwwroot\img\456567678.png" />
+	  <None Include="wwwroot\img\567657657567.png" />
+	  <None Include="wwwroot\js\site.js" />
+	  <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css" />
+	  <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map" />
+	  <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css" />
+	  <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css.map" />
+	  <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css" />
+	  <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css.map" />
+	  <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css" />
+	  <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css.map" />
+	  <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css" />
+	  <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css.map" />
+	  <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css" />
+	  <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css.map" />
+	  <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css" />
+	  <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css.map" />
+	  <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css" />
+	  <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css.map" />
+	  <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css" />
+	  <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css.map" />
+	  <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css" />
+	  <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css.map" />
+	  <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css" />
+	  <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css.map" />
+	  <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css" />
+	  <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css.map" />
+	  <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap.css" />
+	  <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap.css.map" />
+	  <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap.min.css" />
+	  <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map" />
+	  <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css" />
+	  <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css.map" />
+	  <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css" />
+	  <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css.map" />
+	  <None Include="wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js" />
+	  <None Include="wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js.map" />
+	  <None Include="wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js" />
+	  <None Include="wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map" />
+	  <None Include="wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js" />
+	  <None Include="wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js.map" />
+	  <None Include="wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js" />
+	  <None Include="wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js.map" />
+	  <None Include="wwwroot\lib\bootstrap\dist\js\bootstrap.js" />
+	  <None Include="wwwroot\lib\bootstrap\dist\js\bootstrap.js.map" />
+	  <None Include="wwwroot\lib\bootstrap\dist\js\bootstrap.min.js" />
+	  <None Include="wwwroot\lib\bootstrap\dist\js\bootstrap.min.js.map" />
+	  <None Include="wwwroot\lib\bootstrap\LICENSE" />
+	  <None Include="wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js" />
+	  <None Include="wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js" />
+	  <None Include="wwwroot\lib\jquery-validation-unobtrusive\LICENSE.txt" />
+	  <None Include="wwwroot\lib\jquery-validation\dist\additional-methods.js" />
+	  <None Include="wwwroot\lib\jquery-validation\dist\additional-methods.min.js" />
+	  <None Include="wwwroot\lib\jquery-validation\dist\jquery.validate.js" />
+	  <None Include="wwwroot\lib\jquery-validation\dist\jquery.validate.min.js" />
+	  <None Include="wwwroot\lib\jquery-validation\LICENSE.md" />
+	  <None Include="wwwroot\lib\jquery\dist\jquery.js" />
+	  <None Include="wwwroot\lib\jquery\dist\jquery.min.js" />
+	  <None Include="wwwroot\lib\jquery\dist\jquery.min.map" />
+	  <None Include="wwwroot\lib\jquery\LICENSE.txt" />
+	</ItemGroup>
+
+</Project>
