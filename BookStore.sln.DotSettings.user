@@ -1,0 +1,14 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=4f9cc604_002D619d_002D44f5_002D9041_002D227d26c245af/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="GetBooks_Success_Test" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::2937F309-F183-4CEC-B93C-C8FDB69ED787::net6.0::FPTBookTest.BookRepositoryTests.GetBooks_Success_Test&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::2937F309-F183-4CEC-B93C-C8FDB69ED787::net6.0::FPTBookTest.BookRepositoryTests.GetBookById_Success_Test&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::2937F309-F183-4CEC-B93C-C8FDB69ED787::net6.0::FPTBookTest.BookRepositoryTests.CreateBook_Success_Test&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::2937F309-F183-4CEC-B93C-C8FDB69ED787::net6.0::FPTBookTest.BookRepositoryTests.EditBook_Success_Test&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::2937F309-F183-4CEC-B93C-C8FDB69ED787::net6.0::FPTBookTest.BookRepositoryTests.DeleteBook_Success_Test&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::2937F309-F183-4CEC-B93C-C8FDB69ED787::net6.0::FPTBookTest.CartRepositoryTests.GetCarts_Success_Test&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::2937F309-F183-4CEC-B93C-C8FDB69ED787::net6.0::FPTBookTest.CartRepositoryTests.GetCartById_Success_Test&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::2937F309-F183-4CEC-B93C-C8FDB69ED787::net6.0::FPTBookTest.CartRepositoryTests.EditCart_Success_Test&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::2937F309-F183-4CEC-B93C-C8FDB69ED787::net6.0::FPTBookTest.CartRepositoryTests.DeleteCart_Success_Test&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

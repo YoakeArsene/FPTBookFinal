@@ -64,10 +64,11 @@ namespace FPTBookTest
             var bookList = repository.GetBooks();
             Assert.Equal(3, bookList.Count());
         }
+
+        [Fact]
         public async Task EditBook_Success_Test()
         {
             var repository = await CreateRepositoryAsync();
-            var bookList = repository.GetBooks();
 
             //Act
             var book = repository.GetBookById("abc");
@@ -75,10 +76,11 @@ namespace FPTBookTest
             repository.EditBook(book);
 
             //Assert
-            var changedbook = repository.GetBookById("abc");
-            Assert.Equal("Changed Title", changedbook.Title);
+            var changedBook = repository.GetBookById("abc");
+            Assert.Equal("Changed Title", changedBook.Title);
         }
 
+        [Fact]
         public async Task DeleteBook_Success_Test()
         {
             var repository = await CreateRepositoryAsync();
@@ -103,6 +105,7 @@ namespace FPTBookTest
             var store = new Store()
                 {
                     Name = "Store",
+                    UId = "1",
                     Address = "Aincrad",
                     Slogan = "Meh",
                     Books = new List<Book>()

@@ -14,9 +14,9 @@ namespace FPTBook.Repositories
         {
             return context.Cart;
         }
-        public Cart GetCartById(string id, string isbn)
+        public Cart GetCartById(string id)
         {
-            return context.Cart.FirstOrDefault(c => c.UId == id && c.BookIsbn == isbn);
+            return context.Cart.FirstOrDefault(c => c.UId == id);
         }
         public void EditCart(Cart cart)
         {
