@@ -10,5 +10,6 @@
     &lt;TestId&gt;xUnit::2937F309-F183-4CEC-B93C-C8FDB69ED787::net6.0::FPTBookTest.CartRepositoryTests.GetCartById_Success_Test&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;xUnit::2937F309-F183-4CEC-B93C-C8FDB69ED787::net6.0::FPTBookTest.CartRepositoryTests.EditCart_Success_Test&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;xUnit::2937F309-F183-4CEC-B93C-C8FDB69ED787::net6.0::FPTBookTest.CartRepositoryTests.DeleteCart_Success_Test&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::2937F309-F183-4CEC-B93C-C8FDB69ED787::net6.0::FPTBookTest.OrderRepositoryTests&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

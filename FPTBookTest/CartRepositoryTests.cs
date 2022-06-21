@@ -12,7 +12,7 @@ namespace FPTBookTest
 
         public CartRepositoryTests()
         {
-            var dbName = $"BookDb_{DateTime.Now.ToFileTimeUtc()}";
+            var dbName = $"CartDb_{DateTime.Now.ToFileTimeUtc()}";
             dbContextOptions = new DbContextOptionsBuilder<UserContext>()
                 .UseInMemoryDatabase(dbName)
                 .Options;
@@ -66,6 +66,7 @@ namespace FPTBookTest
 
             //Act
             repository.DeleteCart(repository.GetCartById("1"));
+            repository.Save();
 
             //Assert
             var cartList = repository.GetCarts();

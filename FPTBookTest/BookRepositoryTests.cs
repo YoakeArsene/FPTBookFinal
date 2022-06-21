@@ -59,6 +59,7 @@ namespace FPTBookTest
                 Price = 3,
                 Title = "Lmao"
             });
+            repository.Save();
 
             //Assert
             var bookList = repository.GetBooks();
@@ -87,6 +88,7 @@ namespace FPTBookTest
 
             //Act
             repository.DeleteBook(repository.GetBookById("xyz"));
+            repository.Save();
 
             //Assert
             var bookList = repository.GetBooks();
